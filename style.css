@@ -507,9 +507,8 @@ p { margin: 0 0 1em; color: var(--muted); }
   .hero__media::after { display: none; }
 
   .hero__media-img {
-    height: 300px;
-    object-fit: cover;
-    object-position: 68% center;
+    height: auto;
+    object-fit: contain;
   }
 
   .hero__inner {
